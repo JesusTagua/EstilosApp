@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.input.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="fondo" fx:id="panel" prefHeight="526.0" prefWidth="426.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tarean3.FXMLDocumentController">
+    <children>
+        <Label fx:id="titulo" layoutX="88.0" layoutY="87.0" minHeight="16" minWidth="69" prefHeight="39.0" prefWidth="207.0" text="Aplicación de estilo">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+        <Button fx:id="btnE1" layoutX="112.0" layoutY="160.0" onAction="#Estilo1" text="Aplicar estilo 1" />
+      <Button fx:id="btnE2" layoutX="112.0" layoutY="218.0" mnemonicParsing="false" onAction="#Estilo2" text="Aplicar estilo 2" />
+      <Button fx:id="btnE3" layoutX="112.0" layoutY="270.0" mnemonicParsing="false" onAction="#Estilo3" text="Aplicar estilo 3" />
+      <Label fx:id="firma" layoutX="98.0" layoutY="359.0" text="Creación de estilo hecha por:" />
+      <Label fx:id="firma2" layoutX="105.0" layoutY="396.0" text="Jesús Tagua Camargo" />
+      <Label fx:id="fondo" layoutX="20.0" layoutY="59.0" prefHeight="77.0" prefWidth="58.0" text="fondo" />
+      <MenuBar prefHeight="49.0" prefWidth="426.0">
+        <menus>
+          <Menu text="Archivo">
+            <items>
+              <MenuItem fx:id="btnSalir" mnemonicParsing="false" onAction="#salir" text="Salir">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="Q" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+                  <MenuItem fx:id="btnReset" mnemonicParsing="false" onAction="#resetear" text="Resetear">
+                     <accelerator>
+                        <KeyCodeCombination alt="UP" code="R" control="DOWN" meta="UP" shift="UP" shortcut="UP" />
+                     </accelerator>
+                  </MenuItem>
+            </items>
+          </Menu>
+          <Menu text="Ayuda">
+            <items>
+              <MenuItem fx:id="acercaDeMenuItem" mnemonicParsing="false" onAction="#mostrarAcercaDe" text="Acerca de" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+    </children>
+</AnchorPane>

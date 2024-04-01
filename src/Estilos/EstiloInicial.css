@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04-mar-2024, 18:23:10
+    Author     : Usuario
+*/
+
+#fondo {-fx-background-color: #9F81F7; } 
+
+/* Definimos el estilo para los botones de la ventana */     
+Button {-fx-background-color: #3C4354;  /* Color de fondo de los botones */
+        -fx-border-color: #FFFFFF;      /* Borde de color blanco */
+        -fx-border-width: 2;            /* Grosor del borde 2px */
+        -fx-text-fill: #F7F700;         /* Color del texto de los botones */
+        -fx-font-family: "Times New Roman"; /* Tipo de letra */
+        -fx-font-style: italic;         /* Estilo de letra inclinado */
+        -fx-font-size: 24px;           /* Tamaño de letra 24px */
+       }
+       
+/* cambia el color de fondo a azul cuando el puntero del ratón está encima */
+Button:hover { -fx-background-color: #0099FF; } 
+
+/* Cambia el color de fondo a blanco, el texto toma el color negro, y además
+   aparece con estilo bold cuando el puntero del ratón es presionado sobre el
+   botón */
+Button:pressed {-fx-background-color: #ffffff;
+                -fx-text-fill: #000000;
+                -fx-font-weight: bold; 
+               }

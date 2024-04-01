@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04-mar-2024, 17:30:00
+    Author     : Usuario
+*/
+#fondo {-fx-background-color: red;}
+Button {
+    -fx-font-family: "Georgia";
+    -fx-font-size: 28px;
+    -fx-font-style: italic;
+    -fx-text-fill: #FF3399;
+    -fx-background-color: #E6FD74;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+}
+
+Button:hover {
+    -fx-background-color: #333333;
+    -fx-font-size: 22px;
+}
+
+Button:pressed {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+
+#aplicacion-style2 {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 36px;
+    -fx-font-style: italic;
+    -fx-text-fill: white;
+}
+
+#author-info-style2 {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 12px;
+    -fx-text-fill: #660099;
+}
+#firma {
+    -fx-text-fill: black; /* Cambio de color a amarillo */
+}
+#firma2 {
+    -fx-text-fill: black; /* Cambio de color a amarillo */
+}
+
+#titulo {
+    -fx-text-fill: black; /* Cambia el color del texto a blanco */
+}
