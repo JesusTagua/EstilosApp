@@ -48,7 +48,7 @@ El proyecto consta de dos partes principales:
 
 ## Autor
 
-Esta aplicación fue realizada por [Tu Nombre y Apellidos]. Versión 1.0.
+Esta aplicación fue realizada por Jesús Tagua Camargo. Versión 1.0.
 
 ## Licencia
 
